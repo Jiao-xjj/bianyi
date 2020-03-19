@@ -4,7 +4,7 @@ public class HelloWorld {
 
 	public int helloWorld(int aInt) {
 		// TODO Auto-generated method stub
-		Systm.out.println("HelloWorld!!!");
+		System.out.println("HelloWorld!!!");
 		return aInt;
 	}
 
