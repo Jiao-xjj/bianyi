@@ -1,0 +1,21 @@
+Started by user [8mha:////4I/wPqNGqFzc/3+a1Hbx+43uvzyAz71u/mzVbcDZOAJ9AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZu/dLi1CL9xJTczDwAfXVmD8AAAAA=[0m???
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/xuzijing-compile
+using credential a0df59b1-9d18-4af7-a25e-6f2db12f98e4
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Jiao-xjj/bianyi.git # timeout=10
+Fetching upstream changes from https://github.com/Jiao-xjj/bianyi.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials Jiao-github
+ > git fetch --tags --progress -- https://github.com/Jiao-xjj/bianyi.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse origin/master^{commit} # timeout=10
+Checking out Revision f5ee13f775c6a049db915aa7e621dec12e92d184 (origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f5ee13f775c6a049db915aa7e621dec12e92d184 # timeout=10
+Commit message: "xxx"
+ > git rev-list --no-walk 7134a66c1ab5bb4a1d99550cd18ae26e0bd7a349 # timeout=10
+[xuzijing-compile] $ /bin/sh -xe /tmp/jenkins4447528932481197737.sh
++ echo http://39.106.124.113:8080/job/xuzijing-compile/12/
+http://39.106.124.113:8080/job/xuzijing-compile/12/
++ cp /var/jenkins_home/jobs/xuzijing-compile/builds/12/log xuzijing-compile-12.log
