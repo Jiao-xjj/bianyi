@@ -1,0 +1,21 @@
+Started by user [8mha:////4I/wPqNGqFzc/3+a1Hbx+43uvzyAz71u/mzVbcDZOAJ9AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZu/dLi1CL9xJTczDwAfXVmD8AAAAA=[0m???
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/xuzijing-compile
+using credential a0df59b1-9d18-4af7-a25e-6f2db12f98e4
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Jiao-xjj/bianyi.git # timeout=10
+Fetching upstream changes from https://github.com/Jiao-xjj/bianyi.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials Jiao-github
+ > git fetch --tags --progress -- https://github.com/Jiao-xjj/bianyi.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse origin/master^{commit} # timeout=10
+Checking out Revision 35fa4e438adefe5dd7617c0c72da29c07004e5ad (origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 35fa4e438adefe5dd7617c0c72da29c07004e5ad # timeout=10
+Commit message: "Update HelloWorld.java"
+ > git rev-list --no-walk d478c573f205a2e34536cc8ef5febda0e5285ec2 # timeout=10
+[xuzijing-compile] $ /bin/sh -xe /tmp/jenkins493586918138232310.sh
++ echo http://39.106.124.113:8080/job/xuzijing-compile/17/
+http://39.106.124.113:8080/job/xuzijing-compile/17/
++ cp /var/jenkins_home/jobs/xuzijing-compile/builds/17/log xuzijing-compile-17.log
